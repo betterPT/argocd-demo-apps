@@ -1,0 +1,9 @@
+
+type Balls {
+  id: ID!
+  name: String!
+}
+
+Query {
+  allBalls(id: ID!): Balls
+}
