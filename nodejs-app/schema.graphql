@@ -4,6 +4,6 @@ type Balls {
   name: String!
 }
 
-Query {
+type Query {
   allBalls(id: ID!): Balls
 }
