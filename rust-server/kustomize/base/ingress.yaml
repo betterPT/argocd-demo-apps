@@ -1,0 +1,13 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: rust-app
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /rusty
+            pathType: Prefix
+            backend:
+              serviceName: rust-app
+              servicePort: http
