@@ -1,0 +1,9 @@
+
+type Thing {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  allThings(id: ID!): [Thing]
+}

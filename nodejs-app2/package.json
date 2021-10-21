@@ -1,0 +1,23 @@
+{
+  "name": "subgraph-inventory",
+  "version": "1.1.21",
+  "description": "",
+  "main": "inventory.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@apollo/federation": "0.33.0",
+    "apollo-server": "3.3.0",
+    "graphql": "15.6.0",
+    "reflect-metadata": "^0.1.13",
+    "supergraph-demo-opentelemetry": "0.0.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
